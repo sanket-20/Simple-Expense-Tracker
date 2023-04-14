@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <main>
+      <h1>Expense Tracker</h1>
+
+      <div class="my-balance">
+        <p>My Balance</p>
+        <p><b><span>&#8377;</span><span id="my-balance">0000</span></b></p>
+      </div>
+
+      <div class="Finance-tracker">
+        <div class="income">
+          <p>Income</p>
+          <p><span>&#8377;</span><span id="income">0000</span></p>
+        </div>
+        <div class="expense">
+          <p>Expense</p>
+          <p><span>&#8377;</span><span id="expense">0000</span></p>
+        </div>
+      </div>
+
+      <div id="history">
+        <h2>History</h2>
+      </div>
+      <hr>
+      <div class="new-transcation-window">
+        <h2>Add New Transcation</h2> 
+        <div class="text">
+          <div>Text</div>
+          <input type="text" name="" id="text-details" placeholder="Enter Text.." />
+        </div>
+
+        <div class="amount-type">
+          <div>Amount</div>
+          <div><small>(negative-expense , positive-income)</small></div>
+          <input type="text" name="" id="amount-sign" placeholder="Enter Amount.." />
+        </div>
+
+        <div id="submit">
+            Add Transcation
+        </div>
+        
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
